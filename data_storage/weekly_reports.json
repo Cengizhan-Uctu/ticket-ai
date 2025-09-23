@@ -1,0 +1,68 @@
+[
+  {
+    "id": "bd7c034c-c426-400d-a9c6-9ea9bfe9705a",
+    "date": "2025-09-22T10:28:04.259593",
+    "week_start": "2025-09-22",
+    "title": "Haftalık Rapor - 22.09.2025",
+    "ai_summary": "Elbette, görev kategori analizi raporunuzun özeti aşağıdadır:\n\n---\n\n**📈 ARTAN KATEGORİLER:**\n- **VPN/Cyberark:** **+1.1 görev** - Ortalamaya göre en yüksek artış bu kategoride. Uzaktan çalışma bağlantılarında veya güvenlik politikalarında yaşanan genel bir sorun veya güncelleme bu artışa neden olmuş olabilir.\n- **Erişim İzni:** **+1.0 görev** - Ortalamaya göre %100'lük bir artış gösteriyor. Yeni başlayan çalışanlar, departman değişiklikleri veya yeni bir proje için toplu yetki talepleri bu ani artışı açıklayabilir.\n- **Yazıcı:** **+0.4 görev** - Ortalamaya yakın, hafif bir artış. Genel operasyonel yoğunlukla paralel, endişe verici olmayan bir dalgalanma.\n\n**📉 AZALAN KATEGORİLER:**\n- **Diğer Kategoriler (Slack, Mail, Şifre vb.):** **-1.2 görev (toplamda)** - Geçmiş haftalarda görülen çok sayıda küçük ve çeşitli problem (Slack, mail, yazılım, şifre vb.) bu hafta hiç yaşanmamış. Bu durum, yapılan iyileştirmelerin etkili olduğunu veya sistemlerin daha stabil çalıştığını gösteriyor.\n- **İnternet Problemleri:** **-0.2 görev** - Ortalamanın slightly altında kalarak olumlu bir seyir izlemiştir.\n\n**🆕 YENİ KATEGORİLER:**\n- Bu hafta yeni bir görev kategorisi oluşmamıştır.\n\n**💡 GENEL DEĞERLENDİRME:**\n- Bu haftaki toplam 11 görev, 9 haftalık ortalama olan 10.1'in hafifçe üzerindedir. Genel azalış trendi bu hafta için duraklamış görünmektedir.\n- Artış, spesifik olarak **VPN/Cyberark** ve **Erişim İzni** kategorilerinde yoğunlaşırken, geçmişteki dağınık ve küçük sorunların ortadan kalkması olumlu bir gelişmedir.\n\n**🎯 ÖNERİLER:**\n- **Artan Kategoriler İçin:**\n    - **VPN/Cyberark:** Artışın kök nedeni araştırılmalı. Kullanıcılara yönelik sık karşılaşılan sorunlarla ilgili bir bilgilendirme maili veya rehber hazırlanabilir.\n    - **Erişim İzni:** Taleplerin kaynağı (yeni personel, proje vb.) analiz edilerek gelecek haftalarda benzer bir yoğunluk olup olmayacağı öngörülebilir.\n- **Azalan Kategoriler İçin:** Geçmişte küçük sorunlara yol açan konularda yapılan iyileştirmelerin kalıcı olması sağlanmalıdır. Bu olumlu durumun korunması hedeflenmelidir.\n- **Gelecek Hafta İçin:** VPN ve Erişim İzni kategorileri yakından izlenmeli ve proaktif çözümlerle bu alanlardaki görev sayısının tekrar ortalamaya çekilmesi hedeflenmelidir.",
+    "incident_info": "yaşanmadı",
+    "improvement_suggestions": "bu hafta yok",
+    "additional_notes": "bu hafta 34 puanlık sprint koşmuşuz",
+    "data_summary": {
+      "categories": {
+        "Erişim izni": 2,
+        "Meyer": 1,
+        "VPN/Cyberark": 3,
+        "Yazıcı": 4,
+        "İnternet Problemleri": 1
+      },
+      "date": "2025-09-22T10:26:22.412726",
+      "total_tasks": 11
+    },
+    "full_report": "Elbette, istediğiniz formatta profesyonel ve eyleme geçirilebilir bir haftalık iş raporu aşağıda hazırlanmıştır.\n\n***\n\n# HAFTALIK İŞ RAPORU (22.09.2025)\n\n## 📊 VERİ ANALİZİ ÖZETİ\nBu hafta toplam görev sayısı (11), 9 haftalık ortalamanın (10.1) hafif üzerinde seyrederek genel düşüş trendinde bir duraklamaya işaret etmiştir. Artış, spesifik olarak iki kategori üzerinde yoğunlaşmıştır:\n\n*   **📈 Kritik Artışlar:** **VPN/Cyberark (+1.1 görev)** ve **Erişim İzni (+1.0 görev)** kategorilerinde belirgin bir artış gözlemlenmiştir.\n*   **📉 Olumlu Gelişme:** Geçmiş haftalarda sıkça karşılaşılan çok sayıda küçük ve çeşitli (Slack, mail, şifre vb.) sorunun bu hafta **tamamen ortadan kalkması**, sistem stabilitesinin arttığını ve yapılan iyileştirmelerin başarılı olduğunu göstermektedir.\n*   **📊 Stabil Kategori:** İnternet problemleri, ortalamanın altında kalarak stabil bir seyir izlemiştir.\n\n## 🚨 BU HAFTA YAŞANAN OLAYLAR\nBu hafta operasyonel süreçleri kesintiye uğratan veya acil müdahale gerektiren kayda değer bir olay (incident) **yaşanmamıştır**. Bu durum, sistemlerin genel stabilitesinin korunduğunu ve altyapının sorunsuz çalıştığını teyit etmektedir.\n\n## 💡 GELİŞTİRME ÖNERİLERİ\nBu haftaki veri analizinden yola çıkarak aşağıdaki eylemlerin önceliklendirilmesi önerilmektedir:\n\n*   **VPN/Cyberark İçin:**\n    *   Görev sayısındaki artışın kök nedeni detaylı olarak **araştırılmalıdır**.\n    *   Tekrarlayan sorunlar tespit edilirse, kullanıcılara yönelik pratik çözümler içeren bir **bilgilendirme rehberi veya e-postası** hazırlanabilir.\n*   **Erişim İzni İçin:**\n    *   Taleplerin kaynağı (yeni işe alımlar, proje bazlı yetkilendirmeler vb.) **analiz edilmelidir**. Bu analiz, gelecek haftalardaki iş yükünü öngörmemize yardımcı olacaktır.\n*   **Kazanımların Korunması İçin:**\n    *   Küçük ve çeşitli sorunların ortadan kalkmasını sağlayan iyileştirmelerin **kalıcılığı sağlanmalı** ve bu pozitif durumun devamlılığı hedeflenmelidir.\n\n## 🎯 SONUÇ VE DEĞERLENDİRME\nBu hafta, genel görev sayısında hafif bir artış yaşansa da, bu artışın **dağınık sorunlardan ziyade belirli kategorilerde yoğunlaşması** sorunun kaynağını tespit etmeyi kolaylaştırmaktadır. Özellikle VPN ve Erişim İzni konuları dikkat çekerken, diğer yandan birçok küçük sorunun elimine edilmesi önemli bir başarıdır. Bu durum, odaklanmış sorun çözme stratejilerinin ne kadar etkili olabileceğini göstermektedir. Ayrıca, ekibin **34 puanlık sprint hedefini tamamlamış olması**, artan destek görevlerine rağmen geliştirme tarafındaki üretkenliğin yüksek kaldığını göstermektedir.\n\n## 📝 EK NOTLAR\n*   Bu hafta geliştirme ekibi, planlanan sprint kapsamında **34 puanlık** bir iş hacmini başarıyla tamamlamıştır. Bu, takımın yüksek üretkenliğini ve hedeflere bağlılığını göstermektedir.\n\n## 🔮 GELECEK HAFTA İÇİN BEKLENTİLER\nGelecek hafta ana odak, bu haftaki artışın kaynağı olan **VPN/Cyberark** ve **Erişim İzni** kategorileri olacaktır. Bu alanlarda önerilen proaktif adımların (kök neden analizi, bilgilendirme vb.) atılmasıyla görev sayılarının tekrar ortalamaya çekilmesi ve genel düşüş trendine geri dönülmesi hedeflenmektedir. Bu iki kategori yakından izlenecektir."
+  },
+  {
+    "id": "bbd1ef95-2d23-49be-8193-070da11dbc2a",
+    "date": "2025-09-23T09:28:50.455636",
+    "week_start": "2025-09-22",
+    "title": "Haftalık Rapor - 23.09.2025",
+    "ai_summary": "## 🔍 ARTAN TİCKETLARDAKİ SEBEPLER🔍 KATEGORİ BAZINDA SEBEP ANALİZİ:Yazıcı (+1.6): Sebep analizi yapılamadıMeyer (+0.8): Sebep analizi yapılamadıVPN/Cyberark (+0.7): Sebep analizi yapılamadı🎯 GENEL SEBEPLERİN ANALİZİ:Yeterli sebep analizi yapılamadı.---## 🛡️ ALINABİLECEK ÖNLEMLER🛡️ ALINABİLECEK ÖNLEMLER:• Sistem kaynaklarını gözden geçirin• Kullanıcı eğitimlerini güncelleyin  • Preventif bakım planları yapın",
+    "incident_info": "yaşandı tüm şifreler sıfırlandı",
+    "improvement_suggestions": "yazıcı ekleme uygulaması yapılabilir",
+    "additional_notes": "bu hafta 50 puanlık sprint koştuk",
+    "data_summary": {
+      "categories": {
+        "Erişim izni": 2,
+        "Meyer": 2,
+        "VPN/Cyberark": 3,
+        "Yazıcı": 6,
+        "İnternet Problemleri": 2
+      },
+      "date": "2025-09-23T09:21:16.753996",
+      "total_tasks": 15
+    },
+    "full_report": "Elbette, istediğiniz bilgilerle kısa ve öz bir haftalık rapor aşağıdadır:\n\n# HAFTALIK RAPOR (23.09.2025)\n\n## 📊 DURUM\nBu hafta **Yazıcı, Meyer ve VPN/Cyberark** kategorilerinde ticket sayılarında artış gözlemlendi. Artışların kök nedeni henüz tespit edilemedi.\n\n## 🚨 OLAYLAR\n*   Hafta içinde yaşanan bir olay nedeniyle tüm kullanıcı şifreleri zorunlu olarak sıfırlandı.\n\n## 💡 ÖNERİLER\n*   Artan yazıcı ticket'larını azaltmak için, kullanıcıların kendi yazıcılarını ekleyebileceği bir uygulama geliştirilebilir.\n*   Ticket artış nedenlerini belirlemek için sistem kaynakları gözden geçirilmeli, kullanıcı eğitimleri güncellenmeli ve proaktif bakım planları oluşturulmalıdır.\n\n## 🎯 SONUÇ\nYaşanan zorluklara rağmen hafta boyunca yüksek bir tempo yakalanmış ve **50 puanlık sprint hedefi** başarıyla tamamlanmıştır. Önerilerin hayata geçirilmesi gelecek haftalardaki verimliliği artıracaktır."
+  },
+  {
+    "id": "669c93bf-f14e-4396-9706-9dc192e1834f",
+    "date": "2025-09-23T11:16:29.991562",
+    "week_start": "2025-09-22",
+    "title": "Haftalık Rapor - 23.09.2025",
+    "ai_summary": "## 🔍 ARTAN TİCKETLARDAKİ SEBEPLER🔍 KATEGORİ BAZINDA SEBEP ANALİZİ:VPN/Cyberark (+0.7): Sebep analizi yapılamadıErişim izni (+0.6): Sebep analizi yapılamadı🎯 GENEL SEBEPLERİN ANALİZİ:Yeterli sebep analizi yapılamadı.---## 🛡️ ALINABİLECEK ÖNLEMLER🛡️ ALINABİLECEK ÖNLEMLER:• Sistem kaynaklarını gözden geçirin• Kullanıcı eğitimlerini güncelleyin  • Preventif bakım planları yapın",
+    "incident_info": "şifreler sıfırlandı",
+    "improvement_suggestions": "yazıcı ekleme uygulaması yapılabilir",
+    "additional_notes": "bu hafta 30 puanlık sprint koşuldu",
+    "data_summary": {
+      "categories": {
+        "Erişim izni": 2,
+        "Meyer": 1,
+        "VPN/Cyberark": 3,
+        "Yazıcı": 4,
+        "İnternet Problemleri": 1
+      },
+      "date": "2025-09-23T11:13:52.644967",
+      "total_tasks": 11
+    },
+    "full_report": "Elbette, istenen bilgilerle oluşturulmuş kısa ve öz haftalık rapor aşağıdadır:\n\n# HAFTALIK RAPOR (23.09.2025)\n\n## 📊 DURUM\nBu hafta VPN/Cyberark ve Erişim İzni kategorilerindeki ticket sayılarında artış gözlemlenmiştir. Artışların kök nedeni henüz tespit edilememiştir.\n\n## 🚨 OLAYLAR\n- Genel kullanıcı şifreleri sıfırlanmıştır.\n- Hafta içerisinde 30 puanlık sprint başarıyla tamamlanmıştır.\n\n## 💡 ÖNERİLER\n- Kullanıcıların yazıcı eklemesini kolaylaştıracak bir uygulama geliştirilebilir.\n- Artan ticket'lara yönelik olarak sistem kaynakları gözden geçirilmeli, kullanıcı eğitimleri güncellenmeli ve önleyici bakım planları oluşturulmalıdır.\n\n## 🎯 SONUÇ\nSprint hedefiyle verimli bir hafta geçirilmiştir. Ancak, nedeni belirsiz ticket artışları önümüzdeki dönem için yakından takip edilmeli ve önerilen aksiyonlar değerlendirilmelidir."
+  }
+]

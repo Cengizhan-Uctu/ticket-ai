@@ -1,0 +1,1958 @@
+[
+  {
+    "id": "ec63b5f0-0b2a-4ed7-aeb5-9e8a4a514fbb",
+    "date": "2025-09-20T21:13:40.521823",
+    "week_start": "2025-09-15",
+    "filename": "hafta2.xlsx",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 2,
+      "Yazıcı": 3,
+      "Erişim izni": 1,
+      "Meyer": 1,
+      "İnternet Problemleri": 1
+    }
+  },
+  {
+    "id": "645ba90d-8ec7-4abe-bd81-cfc716567437",
+    "date": "2025-09-20T21:41:06.193973",
+    "week_start": "2025-09-15",
+    "original_filename": "hafta3.xlsx",
+    "display_filename": "Hafta_20_09_2025_21_41",
+    "data": [
+      {
+        "task": "10.204.66.211 ip e sahip yazıcıdan barkod çıktısı alamıyoruz destek olur musunuz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.205.74.8\n 10.205.74.56\n 10.205.74.7\n Selamlar İp numaralı barkod yazıcılarından barkod alamıyoruz destek olur musunuz.",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.227.98.18 ıp'lı ekran yansıtımı ve Vnc uygulaması yüklenmesi konusunda destek rica ederim .\n Teşekkürler",
+        "category": "Performans Ekranı / vnc / respberry"
+      },
+      {
+        "task": "2 katlı şubede çalışıyoruz.Şubede bulunan internet dağıtıcılarında problem var.Üst kata sinyal gitmiyor.Üst katta internete bağlanamıyoruz.Destek rica ediyorum.",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "2 YAZICININ IP ADRESİ AYNI OLDUĞU İÇİN YAZMAMAKTADIR.",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "2021 de dolap da calismaya basladim email adresim enes.yalinkaya@dolap.com olarak olusturuldu, \n 2023 haziranda trendyol/product/listing ekibine rotasyon yaptim hala bazi yerlerde login olurken enes.yalinkaya@trendyol.com ile giris yapamiyorum, \n ornek google drive a giris yaparken enes.yalinkaya@trendyol.com ile giris yapamiyorum ama enes.yalinkaya@dolap.com ile giris yapmak zorunda kaliyorum",
+        "category": "Yazılım Problemi"
+      },
+      {
+        "task": "3mars ortamında kullanılan OME yazılımında yetkilendirme için grup açılması gerekmektedir. desteğinizi rica ederim",
+        "category": "mail gurubu ekle-çıkar"
+      }
+    ],
+    "category_counts": {
+      "Yazıcı": 3,
+      "Performans Ekranı / vnc / respberry": 1,
+      "İnternet Problemleri": 1,
+      "Yazılım Problemi": 1,
+      "mail gurubu ekle-çıkar": 1
+    },
+    "total_tasks": 7
+  },
+  {
+    "id": "0767fac1-55b2-4631-ac3b-727e5be9e60e",
+    "date": "2025-09-20T21:54:46.731448",
+    "week_start": "2025-09-15",
+    "original_filename": "hafta3.xlsx",
+    "display_filename": "Hafta_20_09_2025_21_54",
+    "data": [
+      {
+        "task": "10.204.66.211 ip e sahip yazıcıdan barkod çıktısı alamıyoruz destek olur musunuz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.205.74.8\n 10.205.74.56\n 10.205.74.7\n Selamlar İp numaralı barkod yazıcılarından barkod alamıyoruz destek olur musunuz.",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.227.98.18 ıp'lı ekran yansıtımı ve Vnc uygulaması yüklenmesi konusunda destek rica ederim .\n Teşekkürler",
+        "category": "Performans Ekranı / vnc / respberry"
+      },
+      {
+        "task": "2 katlı şubede çalışıyoruz.Şubede bulunan internet dağıtıcılarında problem var.Üst kata sinyal gitmiyor.Üst katta internete bağlanamıyoruz.Destek rica ediyorum.",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "2 YAZICININ IP ADRESİ AYNI OLDUĞU İÇİN YAZMAMAKTADIR.",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "2021 de dolap da calismaya basladim email adresim enes.yalinkaya@dolap.com olarak olusturuldu, \n 2023 haziranda trendyol/product/listing ekibine rotasyon yaptim hala bazi yerlerde login olurken enes.yalinkaya@trendyol.com ile giris yapamiyorum, \n ornek google drive a giris yaparken enes.yalinkaya@trendyol.com ile giris yapamiyorum ama enes.yalinkaya@dolap.com ile giris yapmak zorunda kaliyorum",
+        "category": "Yazılım Problemi"
+      },
+      {
+        "task": "3mars ortamında kullanılan OME yazılımında yetkilendirme için grup açılması gerekmektedir. desteğinizi rica ederim",
+        "category": "mail gurubu ekle-çıkar"
+      }
+    ],
+    "category_counts": {
+      "Yazıcı": 3,
+      "Performans Ekranı / vnc / respberry": 1,
+      "İnternet Problemleri": 1,
+      "Yazılım Problemi": 1,
+      "mail gurubu ekle-çıkar": 1
+    },
+    "total_tasks": 7
+  },
+  {
+    "id": "1ece5252-8f95-4460-839b-2bb249c9949b",
+    "date": "2025-09-20T22:01:20.717785",
+    "week_start": "2025-09-15",
+    "original_filename": "hafta4_copy.xlsx",
+    "display_filename": "Hafta_20_09_2025_22_01",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 4,
+      "Erişim izni": 2,
+      "Meyer": 1,
+      "İnternet Problemleri": 1
+    },
+    "total_tasks": 11
+  },
+  {
+    "id": "8268cec3-bb69-49b6-a4ea-795afd048ef5",
+    "date": "2025-09-22T08:46:27.871587",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta1.xlsx",
+    "display_filename": "Hafta_22_09_2025_08_46",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "Selamlar bilgisayarıma giriş yapamıyorum şifrem yanlış diyor",
+        "category": "Şifre Problemi"
+      },
+      {
+        "task": "Selamlar outlookda bazı kişilere mail atamıyorum",
+        "category": "mail problemi"
+      },
+      {
+        "task": "Selamlar Slack e giriş yapamıyorum",
+        "category": "Slack Problemi"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Meyer": 2,
+      "İnternet Problemleri": 2,
+      "Yazıcı": 4,
+      "Erişim izni": 1,
+      "Şifre Problemi": 1,
+      "mail problemi": 1,
+      "Slack Problemi": 1
+    },
+    "total_tasks": 15
+  },
+  {
+    "id": "7f70a50d-66e4-4e38-9100-3ba9262fbc05",
+    "date": "2025-09-22T09:02:11.363409",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta1.xlsx",
+    "display_filename": "Hafta_22_09_2025_09_02",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "Selamlar bilgisayarıma giriş yapamıyorum şifrem yanlış diyor",
+        "category": "Şifre Problemi"
+      },
+      {
+        "task": "Selamlar outlookda bazı kişilere mail atamıyorum",
+        "category": "mail problemi"
+      },
+      {
+        "task": "Selamlar Slack e giriş yapamıyorum",
+        "category": "Slack Problemi"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Meyer": 2,
+      "İnternet Problemleri": 2,
+      "Yazıcı": 4,
+      "Erişim izni": 1,
+      "Şifre Problemi": 1,
+      "mail problemi": 1,
+      "Slack Problemi": 1
+    },
+    "total_tasks": 15
+  },
+  {
+    "id": "0a24f195-312f-4e9c-92a3-45414d0787d8",
+    "date": "2025-09-22T09:09:07.545993",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta4_copy.xlsx",
+    "display_filename": "Hafta_22_09_2025_09_09",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 4,
+      "Erişim izni": 2,
+      "Meyer": 1,
+      "İnternet Problemleri": 1
+    },
+    "total_tasks": 11
+  },
+  {
+    "id": "74143eea-95bd-404d-9d40-2ccc95b69b0b",
+    "date": "2025-09-22T10:25:25.774065",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta3.xlsx",
+    "display_filename": "Hafta_22_09_2025_10_25",
+    "data": [
+      {
+        "task": "10.204.66.211 ip e sahip yazıcıdan barkod çıktısı alamıyoruz destek olur musunuz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.205.74.8\n 10.205.74.56\n 10.205.74.7\n Selamlar İp numaralı barkod yazıcılarından barkod alamıyoruz destek olur musunuz.",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.227.98.18 ıp'lı ekran yansıtımı ve Vnc uygulaması yüklenmesi konusunda destek rica ederim .\n Teşekkürler",
+        "category": "Performans Ekranı / vnc / respberry"
+      },
+      {
+        "task": "2 katlı şubede çalışıyoruz.Şubede bulunan internet dağıtıcılarında problem var.Üst kata sinyal gitmiyor.Üst katta internete bağlanamıyoruz.Destek rica ediyorum.",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "2 YAZICININ IP ADRESİ AYNI OLDUĞU İÇİN YAZMAMAKTADIR.",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "2021 de dolap da calismaya basladim email adresim enes.yalinkaya@dolap.com olarak olusturuldu, \n 2023 haziranda trendyol/product/listing ekibine rotasyon yaptim hala bazi yerlerde login olurken enes.yalinkaya@trendyol.com ile giris yapamiyorum, \n ornek google drive a giris yaparken enes.yalinkaya@trendyol.com ile giris yapamiyorum ama enes.yalinkaya@dolap.com ile giris yapmak zorunda kaliyorum",
+        "category": "Yazılım Problemi"
+      },
+      {
+        "task": "3mars ortamında kullanılan OME yazılımında yetkilendirme için grup açılması gerekmektedir. desteğinizi rica ederim",
+        "category": "mail gurubu ekle-çıkar"
+      }
+    ],
+    "category_counts": {
+      "Yazıcı": 3,
+      "Performans Ekranı / vnc / respberry": 1,
+      "İnternet Problemleri": 1,
+      "Yazılım Problemi": 1,
+      "mail gurubu ekle-çıkar": 1
+    },
+    "total_tasks": 7
+  },
+  {
+    "id": "034f3cc0-7c8f-478f-80c4-1c0cbd4806eb",
+    "date": "2025-09-22T10:26:22.411631",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta4_copy.xlsx",
+    "display_filename": "Hafta_22_09_2025_10_26",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 4,
+      "Erişim izni": 2,
+      "Meyer": 1,
+      "İnternet Problemleri": 1
+    },
+    "total_tasks": 11
+  },
+  {
+    "id": "d8f3d35a-1ca3-4b16-ba19-b2cddd78798e",
+    "date": "2025-09-22T11:04:03.470933",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta2.xlsx",
+    "display_filename": "Hafta_22_09_2025_11_04",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 6,
+      "Erişim izni": 2,
+      "Meyer": 2,
+      "İnternet Problemleri": 2
+    },
+    "total_tasks": 15
+  },
+  {
+    "id": "c5b0ea23-9394-458b-ab0a-f7f250385ade",
+    "date": "2025-09-22T12:54:19.040676",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta3.xlsx",
+    "display_filename": "Hafta_22_09_2025_12_54",
+    "data": [
+      {
+        "task": "10.204.66.211 ip e sahip yazıcıdan barkod çıktısı alamıyoruz destek olur musunuz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.205.74.8\n 10.205.74.56\n 10.205.74.7\n Selamlar İp numaralı barkod yazıcılarından barkod alamıyoruz destek olur musunuz.",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.227.98.18 ıp'lı ekran yansıtımı ve Vnc uygulaması yüklenmesi konusunda destek rica ederim .\n Teşekkürler",
+        "category": "Performans Ekranı / vnc / respberry"
+      },
+      {
+        "task": "2 katlı şubede çalışıyoruz.Şubede bulunan internet dağıtıcılarında problem var.Üst kata sinyal gitmiyor.Üst katta internete bağlanamıyoruz.Destek rica ediyorum.",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "2 YAZICININ IP ADRESİ AYNI OLDUĞU İÇİN YAZMAMAKTADIR.",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "2021 de dolap da calismaya basladim email adresim enes.yalinkaya@dolap.com olarak olusturuldu, \n 2023 haziranda trendyol/product/listing ekibine rotasyon yaptim hala bazi yerlerde login olurken enes.yalinkaya@trendyol.com ile giris yapamiyorum, \n ornek google drive a giris yaparken enes.yalinkaya@trendyol.com ile giris yapamiyorum ama enes.yalinkaya@dolap.com ile giris yapmak zorunda kaliyorum",
+        "category": "Yazılım Problemi"
+      },
+      {
+        "task": "3mars ortamında kullanılan OME yazılımında yetkilendirme için grup açılması gerekmektedir. desteğinizi rica ederim",
+        "category": "mail gurubu ekle-çıkar"
+      }
+    ],
+    "category_counts": {
+      "Yazıcı": 3,
+      "Performans Ekranı / vnc / respberry": 1,
+      "İnternet Problemleri": 1,
+      "Yazılım Problemi": 1,
+      "mail gurubu ekle-çıkar": 1
+    },
+    "total_tasks": 7
+  },
+  {
+    "id": "ef3562b4-117d-4dd4-9e0e-14e8564383de",
+    "date": "2025-09-22T13:04:39.547396",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta2.xlsx",
+    "display_filename": "Hafta_22_09_2025_13_04",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 6,
+      "Erişim izni": 2,
+      "Meyer": 2,
+      "İnternet Problemleri": 2
+    },
+    "total_tasks": 15
+  },
+  {
+    "id": "8a2b637f-aebf-4ad8-8d41-f7e667a052b1",
+    "date": "2025-09-22T13:07:35.288777",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta4_copy.xlsx",
+    "display_filename": "Hafta_22_09_2025_13_07",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 4,
+      "Erişim izni": 2,
+      "Meyer": 1,
+      "İnternet Problemleri": 1
+    },
+    "total_tasks": 11
+  },
+  {
+    "id": "98abcdb9-0f42-4031-b14d-d03d5e575540",
+    "date": "2025-09-22T13:15:50.371586",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta2.xlsx",
+    "display_filename": "Hafta_22_09_2025_13_15",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 6,
+      "Erişim izni": 2,
+      "Meyer": 2,
+      "İnternet Problemleri": 2
+    },
+    "total_tasks": 15
+  },
+  {
+    "id": "cd2c87cc-b744-4b0f-b20f-d725dbbbfda0",
+    "date": "2025-09-22T13:27:03.308508",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta3.xlsx",
+    "display_filename": "Hafta_22_09_2025_13_27",
+    "data": [
+      {
+        "task": "10.204.66.211 ip e sahip yazıcıdan barkod çıktısı alamıyoruz destek olur musunuz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.205.74.8\n 10.205.74.56\n 10.205.74.7\n Selamlar İp numaralı barkod yazıcılarından barkod alamıyoruz destek olur musunuz.",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.227.98.18 ıp'lı ekran yansıtımı ve Vnc uygulaması yüklenmesi konusunda destek rica ederim .\n Teşekkürler",
+        "category": "Performans Ekranı / vnc / respberry"
+      },
+      {
+        "task": "2 katlı şubede çalışıyoruz.Şubede bulunan internet dağıtıcılarında problem var.Üst kata sinyal gitmiyor.Üst katta internete bağlanamıyoruz.Destek rica ediyorum.",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "2 YAZICININ IP ADRESİ AYNI OLDUĞU İÇİN YAZMAMAKTADIR.",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "2021 de dolap da calismaya basladim email adresim enes.yalinkaya@dolap.com olarak olusturuldu, \n 2023 haziranda trendyol/product/listing ekibine rotasyon yaptim hala bazi yerlerde login olurken enes.yalinkaya@trendyol.com ile giris yapamiyorum, \n ornek google drive a giris yaparken enes.yalinkaya@trendyol.com ile giris yapamiyorum ama enes.yalinkaya@dolap.com ile giris yapmak zorunda kaliyorum",
+        "category": "Yazılım Problemi"
+      },
+      {
+        "task": "3mars ortamında kullanılan OME yazılımında yetkilendirme için grup açılması gerekmektedir. desteğinizi rica ederim",
+        "category": "mail gurubu ekle-çıkar"
+      }
+    ],
+    "category_counts": {
+      "Yazıcı": 3,
+      "Performans Ekranı / vnc / respberry": 1,
+      "İnternet Problemleri": 1,
+      "Yazılım Problemi": 1,
+      "mail gurubu ekle-çıkar": 1
+    },
+    "total_tasks": 7
+  },
+  {
+    "id": "3395df84-760c-45ff-8859-02412798d152",
+    "date": "2025-09-22T13:35:16.492577",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta2.xlsx",
+    "display_filename": "Hafta_22_09_2025_13_35",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 6,
+      "Erişim izni": 2,
+      "Meyer": 2,
+      "İnternet Problemleri": 2
+    },
+    "total_tasks": 15
+  },
+  {
+    "id": "0d6d30e4-eccc-4c8c-9ec8-50232338e216",
+    "date": "2025-09-22T13:40:54.852584",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta4_copy.xlsx",
+    "display_filename": "Hafta_22_09_2025_13_40",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 4,
+      "Erişim izni": 2,
+      "Meyer": 1,
+      "İnternet Problemleri": 1
+    },
+    "total_tasks": 11
+  },
+  {
+    "id": "75a96a33-ddf8-421b-b9ca-fbe52b7b7d62",
+    "date": "2025-09-22T13:48:51.153124",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta2.xlsx",
+    "display_filename": "Hafta_22_09_2025_13_48",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 6,
+      "Erişim izni": 2,
+      "Meyer": 2,
+      "İnternet Problemleri": 2
+    },
+    "total_tasks": 15
+  },
+  {
+    "id": "c5eaef11-6e34-4002-8e17-28ab7bb6472a",
+    "date": "2025-09-22T13:49:22.347992",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta2.xlsx",
+    "display_filename": "Hafta_22_09_2025_13_49",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 6,
+      "Erişim izni": 2,
+      "Meyer": 2,
+      "İnternet Problemleri": 2
+    },
+    "total_tasks": 15
+  },
+  {
+    "id": "98ad417e-a2e3-4ad7-b0c2-9604c03f1e25",
+    "date": "2025-09-23T08:20:47.017437",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta2.xlsx",
+    "display_filename": "Hafta_23_09_2025_08_20",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 6,
+      "Erişim izni": 2,
+      "Meyer": 2,
+      "İnternet Problemleri": 2
+    },
+    "total_tasks": 15
+  },
+  {
+    "id": "9c921808-3fe2-4d74-94d7-82aa05241c9c",
+    "date": "2025-09-23T08:33:41.556293",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta2.xlsx",
+    "display_filename": "Hafta_23_09_2025_08_33",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 6,
+      "Erişim izni": 2,
+      "Meyer": 2,
+      "İnternet Problemleri": 2
+    },
+    "total_tasks": 15
+  },
+  {
+    "id": "52542dfe-35e7-4722-87a5-cc5c3178df12",
+    "date": "2025-09-23T08:34:55.328497",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta4_copy.xlsx",
+    "display_filename": "Hafta_23_09_2025_08_34",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 4,
+      "Erişim izni": 2,
+      "Meyer": 1,
+      "İnternet Problemleri": 1
+    },
+    "total_tasks": 11
+  },
+  {
+    "id": "fcc3791b-273f-463a-bcb1-4853231a3b9e",
+    "date": "2025-09-23T08:44:34.724452",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta3.xlsx",
+    "display_filename": "Hafta_23_09_2025_08_44",
+    "data": [
+      {
+        "task": "10.204.66.211 ip e sahip yazıcıdan barkod çıktısı alamıyoruz destek olur musunuz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.205.74.8\n 10.205.74.56\n 10.205.74.7\n Selamlar İp numaralı barkod yazıcılarından barkod alamıyoruz destek olur musunuz.",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.227.98.18 ıp'lı ekran yansıtımı ve Vnc uygulaması yüklenmesi konusunda destek rica ederim .\n Teşekkürler",
+        "category": "Performans Ekranı / vnc / respberry"
+      },
+      {
+        "task": "2 katlı şubede çalışıyoruz.Şubede bulunan internet dağıtıcılarında problem var.Üst kata sinyal gitmiyor.Üst katta internete bağlanamıyoruz.Destek rica ediyorum.",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "2 YAZICININ IP ADRESİ AYNI OLDUĞU İÇİN YAZMAMAKTADIR.",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "2021 de dolap da calismaya basladim email adresim enes.yalinkaya@dolap.com olarak olusturuldu, \n 2023 haziranda trendyol/product/listing ekibine rotasyon yaptim hala bazi yerlerde login olurken enes.yalinkaya@trendyol.com ile giris yapamiyorum, \n ornek google drive a giris yaparken enes.yalinkaya@trendyol.com ile giris yapamiyorum ama enes.yalinkaya@dolap.com ile giris yapmak zorunda kaliyorum",
+        "category": "Yazılım Problemi"
+      },
+      {
+        "task": "3mars ortamında kullanılan OME yazılımında yetkilendirme için grup açılması gerekmektedir. desteğinizi rica ederim",
+        "category": "mail gurubu ekle-çıkar"
+      }
+    ],
+    "category_counts": {
+      "Yazıcı": 3,
+      "Performans Ekranı / vnc / respberry": 1,
+      "İnternet Problemleri": 1,
+      "Yazılım Problemi": 1,
+      "mail gurubu ekle-çıkar": 1
+    },
+    "total_tasks": 7
+  },
+  {
+    "id": "63a995bc-9246-4c6a-b314-c5f70c87fdf4",
+    "date": "2025-09-23T08:59:42.302495",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta4_copy.xlsx",
+    "display_filename": "Hafta_23_09_2025_08_59",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 4,
+      "Erişim izni": 2,
+      "Meyer": 1,
+      "İnternet Problemleri": 1
+    },
+    "total_tasks": 11
+  },
+  {
+    "id": "4de7aa16-5a11-48db-b86e-da0a15f62272",
+    "date": "2025-09-23T09:04:10.820625",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta1.xlsx",
+    "display_filename": "Hafta_23_09_2025_09_04",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "Selamlar bilgisayarıma giriş yapamıyorum şifrem yanlış diyor",
+        "category": "Şifre Problemi"
+      },
+      {
+        "task": "Selamlar outlookda bazı kişilere mail atamıyorum",
+        "category": "mail problemi"
+      },
+      {
+        "task": "Selamlar Slack e giriş yapamıyorum",
+        "category": "Slack Problemi"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Meyer": 2,
+      "İnternet Problemleri": 2,
+      "Yazıcı": 4,
+      "Erişim izni": 1,
+      "Şifre Problemi": 1,
+      "mail problemi": 1,
+      "Slack Problemi": 1
+    },
+    "total_tasks": 15
+  },
+  {
+    "id": "10de630a-5fd5-4101-aac0-ab6fb4d31831",
+    "date": "2025-09-23T09:21:16.751680",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta2.xlsx",
+    "display_filename": "Hafta_23_09_2025_09_21",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 6,
+      "Erişim izni": 2,
+      "Meyer": 2,
+      "İnternet Problemleri": 2
+    },
+    "total_tasks": 15
+  },
+  {
+    "id": "1456c7e1-6589-4fd5-8344-080d7c349920",
+    "date": "2025-09-23T10:02:17.828611",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta2.xlsx",
+    "display_filename": "Hafta_23_09_2025_10_02",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 6,
+      "Erişim izni": 2,
+      "Meyer": 2,
+      "İnternet Problemleri": 2
+    },
+    "total_tasks": 15
+  },
+  {
+    "id": "1774f4e5-b019-462f-9bf1-f723e23580a1",
+    "date": "2025-09-23T11:13:52.618556",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta4_copy.xlsx",
+    "display_filename": "Hafta_23_09_2025_11_13",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 4,
+      "Erişim izni": 2,
+      "Meyer": 1,
+      "İnternet Problemleri": 1
+    },
+    "total_tasks": 11
+  },
+  {
+    "id": "94dd5521-f7ba-4bc2-98eb-88c9563de0a0",
+    "date": "2025-09-23T11:19:51.428569",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta4_copy.xlsx",
+    "display_filename": "Hafta_23_09_2025_11_19",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Yazıcı": 4,
+      "Erişim izni": 2,
+      "Meyer": 1,
+      "İnternet Problemleri": 1
+    },
+    "total_tasks": 11
+  },
+  {
+    "id": "c479dcbe-3fa0-41cd-89fd-c1b075d1c09f",
+    "date": "2025-09-23T12:18:30.681308",
+    "week_start": "2025-09-22",
+    "original_filename": "hafta1.xlsx",
+    "display_filename": "Hafta_23_09_2025_12_18",
+    "data": [
+      {
+        "task": "?Selam, telefonumdan ve bilgisayarımdan vpn'e bağlanamıyorum destek olabilir misiniz ?",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "10.202.70.4 tarama yapabiliyorum ancak çıktı alamıyorum. kontrol sağlayabilir miyiz",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "'Yazıcı ekleme programı'' kurulumu için destek olabilir misiniz?",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "\"Cyberark has been blocked\" hatasi aliyorum. Destek talep ediyorum",
+        "category": "VPN/Cyberark"
+      },
+      {
+        "task": "`smb://10.10.42.124` bu adrese ldap bilgilerim ile giriş yapabiliyorum.\n Fakat makinedeki `Butik_Paylasim` klasörüne erişmek istediğimde `you dont have permission to see its contents.` uyarısını alıyorum.\n Bu klasör için erişim izni istiyorum. Bu klasör altına eklediğim resimleri pim ekranında kullanıyoruz.",
+        "category": "Erişim izni"
+      },
+      {
+        "task": "04.03.2025 tarihi 17:30 da (Musa Durmuş) kart okutması sisteme yansımamış görünüyor. Bir hata var ise çözümlenmesi için desteklerinizi talep ederim.",
+        "category": "Meyer"
+      },
+      {
+        "task": "10.10.40.80 sunucusunda erişim sağlanamamaktadır",
+        "category": "İnternet Problemleri"
+      },
+      {
+        "task": "10.201.106.110 ip adresli yazıcının bilgisayarıma bağlanması konusunda destek istiyorum. İyi Çalışmalar",
+        "category": "Yazıcı"
+      },
+      {
+        "task": "Selamlar bilgisayarıma giriş yapamıyorum şifrem yanlış diyor",
+        "category": "Şifre Problemi"
+      },
+      {
+        "task": "Selamlar outlookda bazı kişilere mail atamıyorum",
+        "category": "mail problemi"
+      },
+      {
+        "task": "Selamlar Slack e giriş yapamıyorum",
+        "category": "Slack Problemi"
+      }
+    ],
+    "category_counts": {
+      "VPN/Cyberark": 3,
+      "Meyer": 2,
+      "İnternet Problemleri": 2,
+      "Yazıcı": 4,
+      "Erişim izni": 1,
+      "Şifre Problemi": 1,
+      "mail problemi": 1,
+      "Slack Problemi": 1
+    },
+    "total_tasks": 15
+  }
+]

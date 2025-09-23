@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Görev Analizi - AI Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/reports.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="reports-page">
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-chart-line"></i> Görev Kategori Analizi</h1>
+            <p>Excel dosyanızı yükleyin, anında analiz edin ve AI yorumu alın</p>
+            <nav class="nav-links">
+                <a href="/" class="nav-link"><i class="fas fa-comments"></i> Chat</a>
+                <a href="/reports" class="nav-link active"><i class="fas fa-chart-line"></i> Analiz</a>
+            </nav>
+        </header>
+        
+        <div class="reports-container">
+            <!-- Dosya Yükleme Bölümü -->
+            <div class="upload-section">
+                <h2><i class="fas fa-upload"></i> Excel Dosyası Yükleyin</h2>
+                
+                <div class="file-upload-area" id="uploadArea">
+                    <div class="upload-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <div class="upload-text">
+                        <p>Excel dosyanızı buraya sürükleyin veya tıklayarak seçin</p>
+                        <p class="upload-formats">Desteklenen formatlar: .xlsx, .xls, .csv</p>
+                        <p class="upload-note">Format: A sütunu = Görevler, B sütunu = Kategoriler</p>
+                    </div>
+                    <input type="file" id="excelFile" accept=".xlsx,.xls,.csv" style="display: none;">
+                    <button type="button" class="upload-button" onclick="document.getElementById('excelFile').click()">
+                        <i class="fas fa-folder-open"></i> Dosya Seç
+                    </button>
+                </div>
+                
+                <div class="loading-area" id="loadingArea" style="display: none;">
+                    <div class="loading-spinner">
+                        <i class="fas fa-spinner fa-spin"></i>
+                    </div>
+                    <p>Dosya analiz ediliyor...</p>
+                </div>
+            </div>
+
+            <!-- Geçmiş Veriler Bölümü -->
+            <div id="historical-section" class="historical-section">
+                <h2><i class="fas fa-history"></i> Geçmiş Veriler</h2>
+                
+                <div class="historical-controls">
+                    <button id="loadHistoricalBtn" class="control-button">
+                        <i class="fas fa-database"></i> Geçmiş Verileri Görüntüle
+                    </button>
+                    <button id="compareWeeksBtn" class="control-button" style="display: none;">
+                        <i class="fas fa-balance-scale"></i> Haftaları Karşılaştır
+                    </button>
+                </div>
+                
+                <div id="historicalData" class="historical-data">
+                    <div class="empty-state">
+                        <i class="fas fa-clock" style="font-size: 48px; color: #ddd; margin-bottom: 15px;"></i>
+                        <h3 style="color: #666;">Geçmiş Haftalık Veriler (30 hafta)</h3>
+                        <p style="color: #888;">Yüklediğiniz Excel dosyaları otomatik olarak sisteme kaydedilmiştir.</p>
+                        <p style="color: #888; font-size: 14px; margin-top: 10px;">Geçmiş verileri görüntülemek için yukarıdaki butona tıklayın.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sonuçlar Bölümü -->
+            <div id="results-section" class="results-section" style="display: none;">
+                
+                <!-- Temel İstatistikler -->
+                <div class="basic-stats">
+                    <h2><i class="fas fa-chart-pie"></i> Bu Hafta Özeti</h2>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-tasks"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>Toplam Görev</h4>
+                                <span id="totalTasks" class="stat-number">-</span>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>Kategori Sayısı</h4>
+                                <span id="totalCategories" class="stat-number">-</span>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-calendar-check"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>Kayıt Tarihi</h4>
+                                <span id="recordDate" class="stat-number">-</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grafikler -->
+                <div class="charts-section">
+                    <h3><i class="fas fa-chart-bar"></i> Görsel Analiz</h3>
+                    <div class="chart-row">
+                        <div class="chart-item">
+                            <h4>Kategori Dağılımı (Pasta)</h4>
+                            <img id="pieChart" src="" alt="Pasta Grafik" style="display: none;">
+                        </div>
+                        <div class="chart-item">
+                            <h4>Kategori Dağılımı (Çubuk)</h4>
+                            <img id="barChart" src="" alt="Çubuk Grafik" style="display: none;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kategori Tablosu -->
+                <div class="table-section">
+                    <h3><i class="fas fa-table"></i> Kategori Detayları</h3>
+                    <div class="table-container">
+                        <table id="categoryTable" class="category-table">
+                            <thead>
+                                <tr>
+                                    <th>Kategori</th>
+                                    <th>Görev Sayısı</th>
+                                    <th>Yüzde</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Karşılaştırma Bölümü (Geçmiş veri varsa) -->
+                <div id="comparison-section" class="comparison-section" style="display: none;">
+                    <h3><i class="fas fa-balance-scale"></i> Geçen Hafta ile Karşılaştırma</h3>
+                    
+                    <!-- Karşılaştırma Özeti -->
+                    <div class="comparison-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-calendar-minus"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>Geçen Hafta</h4>
+                                <span id="prevWeekTotal" class="stat-number">-</span>
+                                <span class="stat-label">Toplam Görev</span>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-arrow-up"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>Değişim</h4>
+                                <span id="changeAmount" class="stat-number">-</span>
+                                <span class="stat-label">Görev Sayısı</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Karşılaştırma Grafiği -->
+                    <div id="comparisonChartContainer" class="chart-container">
+                        <img id="comparisonChart" src="" alt="Karşılaştırma Grafiği" style="display: none; width: 100%; max-width: 800px;">
+                    </div>
+
+                    <!-- Karşılaştırma Tablosu -->
+                    <div class="table-container">
+                        <table id="comparisonTable" class="category-table">
+                            <thead>
+                                <tr>
+                                    <th>Kategori</th>
+                                    <th>Geçen Hafta</th>
+                                    <th>Bu Hafta</th>
+                                    <th>Değişim</th>
+                                    <th>Değişim %</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Tarihsel Trend (3+ hafta verisi varsa) -->
+                <div id="trend-section" class="trend-section" style="display: none;">
+                    <h3><i class="fas fa-trending-up"></i> Tarihsel Trend</h3>
+                    <div id="trendContent" class="trend-content"></div>
+                </div>
+
+                <!-- AI Analizi -->
+                <div class="ai-analysis-container">
+                    <h3><i class="fas fa-robot"></i> AI Analizi</h3>
+                    
+                    <div id="aiSummary" class="ai-summary">
+                        <div class="loading-content">
+                            <i class="fas fa-spinner fa-spin"></i> AI yorumu oluşturuluyor...
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Haftalık Rapor Oluşturma Bölümü -->
+                <div id="report-creation-section" class="report-creation-section" style="display: none;">
+                    <h3><i class="fas fa-file-alt"></i> Haftalık Rapor Oluştur</h3>
+                    <div class="report-form">
+                        <div class="form-group">
+                            <label for="incidentInfo">
+                                <i class="fas fa-exclamation-triangle"></i> Bu hafta bir incident yaşandı mı?
+                            </label>
+                            <textarea id="incidentInfo" class="form-textarea" rows="3" 
+                                placeholder="Yaşanan olayları, sorunları veya önemli durumları açıklayın..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="improvementSuggestions">
+                                <i class="fas fa-lightbulb"></i> Geliştirme önerileri varsa neler?
+                            </label>
+                            <textarea id="improvementSuggestions" class="form-textarea" rows="3" 
+                                placeholder="İyileştirme önerilerini, çözüm önerilerini yazın..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="additionalNotes">
+                                <i class="fas fa-sticky-note"></i> Eklemek istediğiniz bir not var mı?
+                            </label>
+                            <textarea id="additionalNotes" class="form-textarea" rows="3" 
+                                placeholder="Ek notlar, özel durumlar, gelecek planlar..."></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <button id="createReportBtn" class="create-report-btn">
+                                <i class="fas fa-magic"></i> Haftalık Rapor Oluştur
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kaydedilmiş Raporlar Bölümü -->
+                <div id="saved-reports-section" class="saved-reports-section" style="display: none;">
+                    <h3><i class="fas fa-archive"></i> Kaydedilmiş Raporlar</h3>
+                    
+                    <div class="reports-controls">
+                        <button id="loadReportsBtn" class="control-button">
+                            <i class="fas fa-list"></i> Raporları Görüntüle
+                        </button>
+                    </div>
+                    
+                    <div id="reportsList" class="reports-list"></div>
+                </div>
+
+                <!-- Rapor Görüntüleme Modal -->
+                <div id="reportModal" class="report-modal" style="display: none;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 id="modalReportTitle"></h3>
+                            <button class="modal-close" onclick="closeReportModal()">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="modalReportContent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ url_for('static', filename='js/reports.js') }}"></script>
+</body>
+</html>
