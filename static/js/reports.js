@@ -748,7 +748,13 @@ class TaskAnalyzer {
     }
     
     async deleteReport(reportId) {
-        if (!confirm('Bu raporu silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.')) {
+        const confirmed = await this.showConfirmDialog(
+            'Raporu Sil',
+            'Bu raporu silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.',
+            'danger'
+        );
+        
+        if (!confirmed) {
             return;
         }
         
@@ -935,7 +941,13 @@ class TaskAnalyzer {
     }
     
     async deleteData(dataId) {
-        if (!confirm('Bu veriyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.')) {
+        const confirmed = await this.showConfirmDialog(
+            'Veriyi Sil',
+            'Bu veriyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.',
+            'danger'
+        );
+        
+        if (!confirmed) {
             return;
         }
         
@@ -980,6 +992,55 @@ class TaskAnalyzer {
         } finally {
             button.innerHTML = originalContent;
             button.disabled = false;
+        }
+    }
+    
+    // Custom confirm dialog
+    showConfirmDialog(title, message, type = 'default') {
+        return new Promise((resolve) => {
+            // Modal HTML oluştur
+            const modalHTML = `
+                <div id="confirmModal" class="confirm-modal">
+                    <div class="confirm-modal-content">
+                        <div class="confirm-modal-header ${type}">
+                            <div class="confirm-icon">
+                                <i class="fas ${type === 'danger' ? 'fa-exclamation-triangle' : 'fa-question-circle'}"></i>
+                            </div>
+                            <h3>${title}</h3>
+                        </div>
+                        <div class="confirm-modal-body">
+                            <p>${message}</p>
+                        </div>
+                        <div class="confirm-modal-footer">
+                            <button class="confirm-btn cancel-btn" onclick="window.taskAnalyzer.closeConfirmDialog(false)">
+                                <i class="fas fa-times"></i> İptal
+                            </button>
+                            <button class="confirm-btn confirm-btn-${type}" onclick="window.taskAnalyzer.closeConfirmDialog(true)">
+                                <i class="fas ${type === 'danger' ? 'fa-trash' : 'fa-check'}"></i> 
+                                ${type === 'danger' ? 'Sil' : 'Onayla'}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Modal'ı sayfaya ekle
+            document.body.insertAdjacentHTML('beforeend', modalHTML);
+            
+            // Promise çözümlemesi için callback sakla
+            this.confirmCallback = resolve;
+        });
+    }
+    
+    closeConfirmDialog(result) {
+        const modal = document.getElementById('confirmModal');
+        if (modal) {
+            modal.remove();
+        }
+        
+        if (this.confirmCallback) {
+            this.confirmCallback(result);
+            this.confirmCallback = null;
         }
     }
 }
@@ -1701,6 +1762,162 @@ const additionalStyles = `
         font-size: 48px;
         color: #ddd;
         margin-bottom: 15px;
+    }
+    
+    /* Custom Confirm Modal Stilleri */
+    .confirm-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2000;
+        animation: fadeIn 0.3s ease;
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    .confirm-modal-content {
+        background: white;
+        border-radius: 15px;
+        max-width: 450px;
+        width: 90%;
+        max-height: 90vh;
+        overflow: hidden;
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+        animation: slideIn 0.3s ease;
+    }
+    
+    @keyframes slideIn {
+        from { 
+            transform: translateY(-50px);
+            opacity: 0;
+        }
+        to { 
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    
+    .confirm-modal-header {
+        padding: 25px;
+        text-align: center;
+        border-bottom: 2px solid #f0f0f0;
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    }
+    
+    .confirm-modal-header.danger {
+        background: linear-gradient(135deg, #ffe6e6 0%, #ffd6d6 100%);
+        border-bottom-color: #ff9999;
+    }
+    
+    .confirm-icon {
+        font-size: 3rem;
+        margin-bottom: 15px;
+        color: #6c757d;
+    }
+    
+    .confirm-modal-header.danger .confirm-icon {
+        color: #dc3545;
+    }
+    
+    .confirm-modal-header h3 {
+        margin: 0;
+        color: #333;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .confirm-modal-body {
+        padding: 25px;
+        text-align: center;
+        color: #666;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .confirm-modal-body p {
+        margin: 0;
+    }
+    
+    .confirm-modal-footer {
+        padding: 20px 25px;
+        background: #f8f9fa;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        border-top: 1px solid #e9ecef;
+    }
+    
+    .confirm-btn {
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        min-width: 120px;
+        justify-content: center;
+    }
+    
+    .cancel-btn {
+        background: #6c757d;
+        color: white;
+    }
+    
+    .cancel-btn:hover {
+        background: #5a6268;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(108, 117, 125, 0.3);
+    }
+    
+    .confirm-btn-danger {
+        background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+        color: white;
+    }
+    
+    .confirm-btn-danger:hover {
+        background: linear-gradient(135deg, #c82333 0%, #bd2130 100%);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(220, 53, 69, 0.4);
+    }
+    
+    .confirm-btn-default {
+        background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+        color: white;
+    }
+    
+    .confirm-btn-default:hover {
+        background: linear-gradient(135deg, #0056b3 0%, #004085 100%);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+    }
+    
+    /* Mobile responsive */
+    @media (max-width: 480px) {
+        .confirm-modal-content {
+            width: 95%;
+            margin: 20px;
+        }
+        
+        .confirm-modal-footer {
+            flex-direction: column;
+        }
+        
+        .confirm-btn {
+            width: 100%;
+        }
     }
 `;
 
