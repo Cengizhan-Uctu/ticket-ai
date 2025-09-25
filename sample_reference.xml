@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sikayetler>
+    <sikayet>
+        <problem>Sisteme giriş yapamıyorum, şifre hatası alıyorum</problem>
+        <category>Giriş Sorunu</category>
+    </sikayet>
+    <sikayet>
+        <problem>Ödeme işlemi sırasında sayfa donuyor</problem>
+        <category>Ödeme Problemi</category>
+    </sikayet>
+    <sikayet>
+        <problem>Kargom 3 gündür gelmiyor, takip numarası çalışmıyor</problem>
+        <category>Kargo</category>
+    </sikayet>
+    <sikayet>
+        <problem>Ürün resimleri yüklenmiyor, sayfa boş gözüküyor</problem>
+        <category>Teknik Sorun</category>
+    </sikayet>
+    <sikayet>
+        <problem>Şifre sıfırlama maili gelmiyor</problem>
+        <category>Giriş Sorunu</category>
+    </sikayet>
+    <sikayet>
+        <problem>Kredi kartım onaylanmıyor, hata kodu: 1001</problem>
+        <category>Ödeme Problemi</category>
+    </sikayet>
+    <sikayet>
+        <problem>Sipariş iptal etmek istiyorum ama buton çalışmıyor</problem>
+        <category>Sipariş İşlemleri</category>
+    </sikayet>
+    <sikayet>
+        <problem>Müşteri hizmetlerine ulaşamıyorum, telefon meşgul</problem>
+        <category>Müşteri Hizmetleri</category>
+    </sikayet>
+    <sikayet>
+        <problem>Uygulamada sürekli çökme yaşıyorum</problem>
+        <category>Teknik Sorun</category>
+    </sikayet>
+    <sikayet>
+        <problem>Kargo adresimi değiştirmek istiyorum</problem>
+        <category>Kargo</category>
+    </sikayet>
+</sikayetler>

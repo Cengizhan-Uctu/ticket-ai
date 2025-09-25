@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Kategori Sistemi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/rag.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="rag-page">
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-brain"></i> RAG Kategori Sistemi</h1>
+            <p>XML dosyalarını kullanarak otomatik sorun kategorize etme</p>
+            <nav class="nav-links">
+                <a href="/" class="nav-link"><i class="fas fa-comments"></i> Chat</a>
+                <a href="/reports" class="nav-link"><i class="fas fa-chart-line"></i> Analiz</a>
+                <a href="/rag" class="nav-link active"><i class="fas fa-brain"></i> RAG Kategori</a>
+            </nav>
+        </header>
+        
+        <div class="rag-container">
+            <!-- Dosya Yükleme Bölümü -->
+            <div class="upload-section">
+                <div class="upload-card">
+                    <div class="upload-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Referans Dosyası</h3>
+                        <p>Kategorize edilmiş sorunları içeren XML dosyasını yükleyin</p>
+                    </div>
+                    <div class="upload-area" id="referenceUploadArea">
+                        <input type="file" id="referenceFile" accept=".xml" style="display: none;">
+                        <div class="upload-content">
+                            <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                            <p class="upload-text">XML dosyasını buraya sürükleyin veya tıklayın</p>
+                            <small>Desteklenen format: XML</small>
+                        </div>
+                    </div>
+                    <div class="file-info" id="referenceFileInfo" style="display: none;">
+                        <i class="fas fa-file-code"></i>
+                        <span class="file-name"></span>
+                        <button class="remove-file" onclick="removeFile('reference')">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="upload-card">
+                    <div class="upload-header">
+                        <i class="fas fa-file-import"></i>
+                        <h3>Kategorize Edilecek Dosya</h3>
+                        <p>Kategorize edilmemiş sorunları içeren XML dosyasını yükleyin</p>
+                    </div>
+                    <div class="upload-area" id="targetUploadArea">
+                        <input type="file" id="targetFile" accept=".xml" style="display: none;">
+                        <div class="upload-content">
+                            <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                            <p class="upload-text">XML dosyasını buraya sürükleyin veya tıklayın</p>
+                            <small>Desteklenen format: XML</small>
+                        </div>
+                    </div>
+                    <div class="file-info" id="targetFileInfo" style="display: none;">
+                        <i class="fas fa-file-code"></i>
+                        <span class="file-name"></span>
+                        <button class="remove-file" onclick="removeFile('target')">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- İşlem Bölümü -->
+            <div class="action-section">
+                <div class="action-card">
+                    <h3><i class="fas fa-cogs"></i> RAG İşlem Merkezi</h3>
+                    <p>Her iki dosya da yüklendikten sonra kategorize etme işlemini başlatabilirsiniz.</p>
+                    
+                    <div class="progress-container" style="display: none;" id="progressContainer">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <div class="progress-text" id="progressText">İşlem hazırlanıyor...</div>
+                    </div>
+                    
+                    <button id="categorizeBtn" class="categorize-btn" disabled>
+                        <i class="fas fa-magic"></i>
+                        Kategorize Et
+                    </button>
+                    
+                    <div class="process-status" id="processStatus" style="display: none;">
+                        <div class="status-item">
+                            <i class="fas fa-check-circle status-icon"></i>
+                            <span>Dosyalar yüklendi</span>
+                        </div>
+                        <div class="status-item">
+                            <i class="fas fa-spin fa-spinner status-icon"></i>
+                            <span>RAG modeli hazırlanıyor...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sonuç Bölümü -->
+            <div class="result-section" id="resultSection" style="display: none;">
+                <div class="result-card">
+                    <h3><i class="fas fa-check-circle"></i> Kategorize Etme Tamamlandı</h3>
+                    
+                    <div class="result-stats" id="resultStats">
+                        <!-- Dinamik olarak doldurulacak -->
+                    </div>
+                    
+                    <div class="result-actions">
+                        <button id="downloadBtn" class="download-btn">
+                            <i class="fas fa-download"></i>
+                            Kategorize Edilmiş Dosyayı İndir
+                        </button>
+                        
+                        <button id="viewDetailsBtn" class="view-details-btn">
+                            <i class="fas fa-eye"></i>
+                            Detayları Görüntüle
+                        </button>
+                    </div>
+                    
+                    <!-- Detay Tablosu -->
+                    <div class="details-table" id="detailsTable" style="display: none;">
+                        <h4>Kategorize Edilen Sorunlar</h4>
+                        <div class="table-container">
+                            <table id="categorizedTable">
+                                <thead>
+                                    <tr>
+                                        <th>Sorun</th>
+                                        <th>Belirlenen Kategori</th>
+                                        <th>Güven Skoru</th>
+                                        <th>Benzer Referans</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Dinamik olarak doldurulacak -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Yükleme Modal -->
+        <div class="loading-modal" id="loadingModal" style="display: none;">
+            <div class="loading-content">
+                <div class="loading-spinner">
+                    <i class="fas fa-brain fa-spin"></i>
+                </div>
+                <h3>RAG Sistemi Çalışıyor</h3>
+                <p id="loadingText">Dosyalar analiz ediliyor...</p>
+                <div class="loading-steps">
+                    <div class="step active" id="step1">
+                        <i class="fas fa-file-upload"></i>
+                        <span>Dosyalar Yükleniyor</span>
+                    </div>
+                    <div class="step" id="step2">
+                        <i class="fas fa-database"></i>
+                        <span>Referans Veriler İşleniyor</span>
+                    </div>
+                    <div class="step" id="step3">
+                        <i class="fas fa-brain"></i>
+                        <span>AI Modeli Hazırlanıyor</span>
+                    </div>
+                    <div class="step" id="step4">
+                        <i class="fas fa-magic"></i>
+                        <span>Kategorize Ediliyor</span>
+                    </div>
+                    <div class="step" id="step5">
+                        <i class="fas fa-check"></i>
+                        <span>Sonuçlar Hazırlanıyor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/rag.js') }}"></script>
+</body>
+</html>

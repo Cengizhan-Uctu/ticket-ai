@@ -11,13 +11,19 @@ import os
 from werkzeug.utils import secure_filename
 from datetime import datetime, timedelta
 import uuid
+import xml.etree.ElementTree as ET
+from lxml import etree
+import tempfile
+import time
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
 matplotlib.use('Agg')  # GUI olmadan çalışması için
 
 app = Flask(__name__)
 
 # Dosya yükleme konfigürasyonu
 UPLOAD_FOLDER = 'uploads'
-ALLOWED_EXTENSIONS = {'xlsx', 'xls', 'csv'}
+ALLOWED_EXTENSIONS = {'xlsx', 'xls', 'csv', 'xml'}
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
 
@@ -443,6 +449,10 @@ def index():
 @app.route('/reports')
 def reports():
     return render_template('reports.html')
+
+@app.route('/rag')
+def rag():
+    return render_template('rag.html')
 
 @app.route('/chat', methods=['POST'])
 def chat():
@@ -1422,6 +1432,326 @@ def delete_report(report_id):
         
     except Exception as e:
         return jsonify({"error": f"Rapor silme hatası: {str(e)}"}), 500
+
+# RAG System Functions
+def simple_embedding(text):
+    """Basit embedding fonksiyonu - kelime frekansı tabanlı"""
+    try:
+        # Metni küçük harfe çevir ve kelimelere ayır
+        words = text.lower().split()
+        
+        # Basit kelime frekansı vektörü oluştur
+        word_freq = {}
+        for word in words:
+            word_freq[word] = word_freq.get(word, 0) + 1
+        
+        # Vektör boyutunu sabitlemek için en yaygın 100 kelimeyi al
+        all_words = sorted(word_freq.keys())[:100]
+        vector = [word_freq.get(word, 0) for word in all_words]
+        
+        # Normalizasyon
+        total = sum(vector) if sum(vector) > 0 else 1
+        normalized_vector = [x/total for x in vector]
+        
+        return np.array(normalized_vector)
+    except Exception as e:
+        print(f"Embedding error: {str(e)}")
+        return np.zeros(100)
+
+def calculate_similarity(text1, text2):
+    """İki metin arasındaki benzerliği hesapla"""
+    try:
+        vec1 = simple_embedding(text1)
+        vec2 = simple_embedding(text2)
+        
+        # Reshape for cosine_similarity
+        vec1 = vec1.reshape(1, -1)
+        vec2 = vec2.reshape(1, -1)
+        
+        similarity = cosine_similarity(vec1, vec2)[0][0]
+        return max(0, similarity)
+    except Exception as e:
+        print(f"Similarity calculation error: {str(e)}")
+        return 0.0
+
+def parse_reference_xml(file_path):
+    """Referans XML dosyasını parse et"""
+    try:
+        tree = ET.parse(file_path)
+        root = tree.getroot()
+        
+        reference_data = []
+        
+        # <sikayetler> tag'i altındaki <sikayet> tag'lerini ara
+        complaints = root.findall('.//sikayet')
+        
+        if not complaints:
+            # Alternatif yapılar dene
+            complaints = root.findall('.//complaint')
+            if not complaints:
+                complaints = root.findall('.//item')
+        
+        for complaint in complaints:
+            problem_text = ""
+            category = ""
+            
+            # Problem metnini bul
+            for child in complaint:
+                if child.tag.lower() in ['problem', 'text', 'description', 'sorun', 'aciklama']:
+                    problem_text = child.text or ""
+                elif child.tag.lower() in ['category', 'kategori', 'type', 'tip']:
+                    category = child.text or ""
+            
+            # Eğer direkt text varsa onu kullan
+            if not problem_text and complaint.text:
+                problem_text = complaint.text
+            
+            # Attributes'larda ara
+            if not category:
+                category = complaint.get('category') or complaint.get('kategori') or ""
+            
+            if problem_text.strip() and category.strip():
+                reference_data.append({
+                    'problem': problem_text.strip(),
+                    'category': category.strip()
+                })
+        
+        print(f"Parsed {len(reference_data)} reference items")
+        return reference_data
+        
+    except Exception as e:
+        print(f"Reference XML parsing error: {str(e)}")
+        return []
+
+def parse_target_xml(file_path):
+    """Kategorize edilecek XML dosyasını parse et"""
+    try:
+        tree = ET.parse(file_path)
+        root = tree.getroot()
+        
+        target_data = []
+        
+        # A sütunundaki problemleri ara
+        problems = root.findall('.//problem')
+        
+        if not problems:
+            # Alternatif yapılar dene
+            problems = root.findall('.//item')
+            if not problems:
+                problems = root.findall('.//row')
+        
+        for problem in problems:
+            problem_text = ""
+            
+            # A sütunu (problem metni) bul
+            if problem.text:
+                problem_text = problem.text
+            else:
+                # A sütunu veya benzer tag'leri ara
+                for child in problem:
+                    if child.tag.lower() in ['a', 'column_a', 'problem', 'text', 'description']:
+                        problem_text = child.text or ""
+                        break
+            
+            if problem_text.strip():
+                target_data.append({
+                    'problem': problem_text.strip(),
+                    'original_index': len(target_data)
+                })
+        
+        print(f"Parsed {len(target_data)} target items")
+        return target_data
+        
+    except Exception as e:
+        print(f"Target XML parsing error: {str(e)}")
+        return []
+
+def find_best_category(problem_text, reference_data, top_k=3):
+    """Bir problem için en uygun kategoriyi bul"""
+    try:
+        if not reference_data:
+            return "Kategorisiz", 0.0, "Referans bulunamadı"
+        
+        similarities = []
+        
+        for ref_item in reference_data:
+            similarity = calculate_similarity(problem_text, ref_item['problem'])
+            similarities.append({
+                'category': ref_item['category'],
+                'similarity': similarity,
+                'reference_problem': ref_item['problem']
+            })
+        
+        # En yüksek benzerlik skoruna göre sırala
+        similarities.sort(key=lambda x: x['similarity'], reverse=True)
+        
+        # En iyi kategoriyi seç
+        best_match = similarities[0]
+        
+        # Güven skorunu yüzdeye çevir
+        confidence = min(100, best_match['similarity'] * 100)
+        
+        return best_match['category'], confidence, best_match['reference_problem']
+        
+    except Exception as e:
+        print(f"Category finding error: {str(e)}")
+        return "Hata", 0.0, "İşlem hatası"
+
+def create_result_xml(target_data, categorized_results, original_target_path):
+    """Sonuç XML dosyasını oluştur"""
+    try:
+        # Orijinal dosyayı oku
+        tree = ET.parse(original_target_path)
+        root = tree.getroot()
+        
+        # Her bir problem için kategori ekle
+        problems = root.findall('.//problem')
+        
+        if not problems:
+            problems = root.findall('.//item')
+            if not problems:
+                problems = root.findall('.//row')
+        
+        for i, problem in enumerate(problems):
+            if i < len(categorized_results):
+                category = categorized_results[i]['category']
+                
+                # B sütunu (kategori) ekle
+                category_element = ET.SubElement(problem, 'category')
+                category_element.text = category
+        
+        # Geçici dosya oluştur
+        temp_file = tempfile.NamedTemporaryFile(mode='w', suffix='.xml', delete=False, encoding='utf-8')
+        
+        # XML'i dosyaya yaz
+        tree.write(temp_file.name, encoding='utf-8', xml_declaration=True)
+        temp_file.close()
+        
+        return temp_file.name
+        
+    except Exception as e:
+        print(f"Result XML creation error: {str(e)}")
+        return None
+
+@app.route('/rag_categorize', methods=['POST'])
+def rag_categorize():
+    """RAG tabanlı kategorize etme"""
+    try:
+        start_time = time.time()
+        
+        # Dosyaları al
+        if 'reference_file' not in request.files or 'target_file' not in request.files:
+            return jsonify({"error": "Her iki dosya da gerekli"}), 400
+        
+        reference_file = request.files['reference_file']
+        target_file = request.files['target_file']
+        
+        if reference_file.filename == '' or target_file.filename == '':
+            return jsonify({"error": "Dosyalar seçilmedi"}), 400
+        
+        # Dosyaları geçici olarak kaydet
+        ref_filename = secure_filename(reference_file.filename)
+        target_filename = secure_filename(target_file.filename)
+        
+        ref_path = os.path.join(app.config['UPLOAD_FOLDER'], f"ref_{uuid.uuid4()}_{ref_filename}")
+        target_path = os.path.join(app.config['UPLOAD_FOLDER'], f"target_{uuid.uuid4()}_{target_filename}")
+        
+        reference_file.save(ref_path)
+        target_file.save(target_path)
+        
+        try:
+            # XML dosyalarını parse et
+            print("Parsing reference XML...")
+            reference_data = parse_reference_xml(ref_path)
+            
+            print("Parsing target XML...")
+            target_data = parse_target_xml(target_path)
+            
+            if not reference_data:
+                return jsonify({"error": "Referans dosyasında geçerli veri bulunamadı"}), 400
+            
+            if not target_data:
+                return jsonify({"error": "Kategorize edilecek dosyada geçerli veri bulunamadı"}), 400
+            
+            # Kategorize etme işlemi
+            print(f"Categorizing {len(target_data)} problems using {len(reference_data)} references...")
+            categorized_results = []
+            
+            for target_item in target_data:
+                category, confidence, similar_ref = find_best_category(
+                    target_item['problem'], 
+                    reference_data
+                )
+                
+                categorized_results.append({
+                    'problem': target_item['problem'],
+                    'category': category,
+                    'confidence': round(confidence, 1),
+                    'similar_reference': similar_ref[:100] + "..." if len(similar_ref) > 100 else similar_ref
+                })
+            
+            # Sonuç dosyasını oluştur
+            result_file_path = create_result_xml(target_data, categorized_results, target_path)
+            
+            if not result_file_path:
+                return jsonify({"error": "Sonuç dosyası oluşturulamadı"}), 500
+            
+            # İstatistikleri hesapla
+            processing_time = round(time.time() - start_time, 1)
+            categories_found = len(set([item['category'] for item in categorized_results]))
+            avg_confidence = round(sum([item['confidence'] for item in categorized_results]) / len(categorized_results), 1)
+            
+            # Dosyayı taşı
+            final_filename = f"kategorize_edilmis_{datetime.now().strftime('%Y%m%d_%H%M%S')}.xml"
+            final_path = os.path.join(app.config['UPLOAD_FOLDER'], final_filename)
+            
+            # Dosyayı kopyala
+            import shutil
+            shutil.move(result_file_path, final_path)
+            
+            return jsonify({
+                "success": True,
+                "stats": {
+                    "total_processed": len(categorized_results),
+                    "categories_found": categories_found,
+                    "avg_confidence": avg_confidence,
+                    "processing_time": processing_time
+                },
+                "categorized_data": categorized_results,
+                "download_url": f"/download_result/{final_filename}",
+                "filename": final_filename
+            })
+            
+        finally:
+            # Geçici dosyaları temizle
+            try:
+                if os.path.exists(ref_path):
+                    os.remove(ref_path)
+                if os.path.exists(target_path):
+                    os.remove(target_path)
+            except:
+                pass
+        
+    except Exception as e:
+        print(f"RAG categorize error: {str(e)}")
+        import traceback
+        traceback.print_exc()
+        return jsonify({"error": f"Kategorize etme hatası: {str(e)}"}), 500
+
+@app.route('/download_result/<filename>')
+def download_result(filename):
+    """Sonuç dosyasını indir"""
+    try:
+        file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        
+        if not os.path.exists(file_path):
+            return jsonify({"error": "Dosya bulunamadı"}), 404
+        
+        from flask import send_file
+        return send_file(file_path, as_attachment=True, download_name=filename)
+        
+    except Exception as e:
+        return jsonify({"error": f"Dosya indirme hatası: {str(e)}"}), 500
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8000)
